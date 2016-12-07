@@ -33,7 +33,7 @@ public class SpringIntegrateVertxApplication {
                 VertxService vertxService = new VertxService(context);
                 Vertx vertx = resultHandler.result();
                 vertx.deployVerticle(vertxService);
-                System.out.println("Deploy successful...");
+                System.out.println("Deploy successful....");
             }
         });
 	}
